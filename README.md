@@ -13,7 +13,7 @@ school and taking computer science classes. After finishing the two prerequisite
 an undergrad degree in CS, as it allows me to either work in the field upon completion, or apply directly to the MBA program in Software
 Engineering or Cybersecurity.
 
-* My current goal is to get into the program, finish it, and go for an MBA.
+My current goal is to get into the program, finish it, and go for an MBA.
 
 I am very passionate about video games. I was first introduced to video games when I was in first grade, as my older brother got me into
 Diablo and Diablo 2. I ended up becoming addicted to Diablo 2, and along the way I encountered Runescape, which I also played alongside
