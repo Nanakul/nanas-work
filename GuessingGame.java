@@ -8,7 +8,7 @@ public class GuessingGame {
 
     int attemptsNum = 0;
     final int maxAttempts = 5;
-    int random = 1 + (int) (Math.random() * 100);
+    int random = 1 + (int) (Math.random() * 99);
     int guess = 0;
 
     System.out.println("I'm thinking of a number between 1 and 100. Can you guess it in less than 5 tries?");
