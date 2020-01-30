@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-class Main {
+public class GuessingGame {
+  
   public static void main(String[] args) {
 
     Scanner console = new Scanner(System.in);
