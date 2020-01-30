@@ -24,9 +24,8 @@ public class GuessingGame {
       } else {
         System.out.println("Congratulations, you win! It took you " + attemptsNum + " attempt(s)");
       }
-
-      if (attemptsNum == maxAttempts)
-        System.out.println("You lose! The number was: " + random);
     }
+    if (attemptsNum == maxAttempts)
+    System.out.println("You lose! The number was: " + random);
   }
 }
