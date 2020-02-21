@@ -1,6 +1,6 @@
-package week5;
-
 public class Customer {
+    	
+	//Set Parameters
 	private String fullName;
 	private Account account;
 	public static double OPENING_BAL = 0.00;
@@ -32,4 +32,4 @@ public class Customer {
 	public void CloseAccount(String accountNumber) {
 		  System.out.println("Hello " + fullName + "! The following account has been closed: " + accountNumber);
   	}
-  }
+}
