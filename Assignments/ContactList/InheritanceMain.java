@@ -9,7 +9,7 @@ public class InheritanceMain {
         Person Midi = new Person();
         Midi.setName("Midi Nanakul");
         Midi.setPhoneNumber("425-911-9111");
-        Midi.setAddress("12345 GoFURself LN");
+        Midi.setAddress("12345 BigBoi LN");
         Midi.setEmail("BetterThanGosu@gmail.com");
         Midi.setNotes("Learn to code...");
         Midi.setBirthday("04/20/80");
