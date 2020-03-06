@@ -3,8 +3,12 @@ public class FamilyContact extends Person {
   private String familyRelationship;
 
   //FamilyContact Constructor
-  public FamilyContact() {
-    
+  public FamilyContact(String familyRelationship) {
+      this.familyRelationship = familyRelationship;
+  }
+
+  public String toString() {
+      return "\nFamily Information -- Family Relationship: " + this.familyRelationship;
   }
 
   //Setters
