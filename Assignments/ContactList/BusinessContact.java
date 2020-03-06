@@ -9,7 +9,10 @@ public class BusinessContact extends Person {
       this.company = company;
       this.linkedIn = linkedIn;
       this.faxNumber = faxNumber;
-    
+  }
+
+  public String toString() {
+      return "\nBusiness Contact Information -- Company: " + this.company + " | LinkedIn: " + this.linkedIn + " | FaxNumber: " + this.faxNumber;
   }
 
   //Setters
