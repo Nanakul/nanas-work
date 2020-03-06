@@ -6,8 +6,15 @@ public class SchoolContact extends Person {
   private String gradYear;
 
   //SchoolContact Constructor
-  public SchoolContact() {
+  public SchoolContact(String college, String major, String degree, String gradYear) {
+      this.college = college;
+      this.major = major;
+      this.degree = degree;
+      this.gradYear = gradYear;
+  }
 
+  public String toString() {
+      return "\nSchool Information -- College: " + this.college + " | Major: " + this.major + " | Degree: " + this.degree + " | Expected Graduation: " + this.gradYear;
   }
 
   //Setters
