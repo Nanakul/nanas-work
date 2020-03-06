@@ -9,7 +9,11 @@ public class Person {
 
   //Parent class constructor
   public Person() {
-    
+
+  }
+
+  public String toString() {
+      return "Person 1 -- Name: " + this.name + " | Phone Number: " + this.phoneNumber + " | Email: " + this.email + " | Address: " + this.address + " | Notes: " + this.notes + " | Birthday: " + this.birthday;
   }
 
   public void setName(String name) {
