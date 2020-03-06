@@ -36,5 +36,31 @@ public class InheritanceMain {
     System.out.println(obj4.getMajor());
     System.out.println(obj4.getDegree());
     System.out.println(obj4.getGradYear());
+    
+    //Added code for Assignment 6
+    System.out.println();
+    System.out.println("-----------------------------------------");
+    System.out.println();
+
+    //Create an array list and store the objects created.
+    ArrayList<Person> contactList = new ArrayList<Person>();
+
+    //Add Contacts to list
+    contactList.add(new BusinessContact("Microsoft", "/in/nanakul", "123-456-7890"));
+    contactList.add(new PersonalContact());
+    contactList.add(new FamilyContact());
+    contactList.add(new SchoolContact());
+
+    //Sort the ArrayList
+    //Collections.sort(contactList);
+
+    //Print the ArrayList
+    System.out.println(contactList);
+
+    //Remove Contacts from ArrayList
+    contactList.remove(2);
+
+    //Print the new ArrayList
+    System.out.println(contactList);
   } 
 }
