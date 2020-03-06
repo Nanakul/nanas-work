@@ -4,8 +4,13 @@ public class PersonalContact extends Person {
   private String linkInstagram;
 
   //PersonalContact Constructor
-  public PersonalContact() {
+  public PersonalContact(String linkFacebook, String linkInstragram) {
+      this.linkFacebook = linkFacebook;
+      this.linkInstagram = linkInstragram;
+  }
 
+  public String toString() {
+      return "\nPersonal Contact Information -- Facebook: " + this.linkFacebook + " | Instagram: " + this.linkInstagram;
   }
 
   //Setters
