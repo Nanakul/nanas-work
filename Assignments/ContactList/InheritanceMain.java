@@ -5,14 +5,30 @@ public class InheritanceMain {
 
     public static void main(String[] args) {
 
-        //Create Person Object
+        //Create Person Objects
         Person Midi = new Person();
-        Midi.setName("Midi Nanakul");
+        Midi.setName("Nana");
         Midi.setPhoneNumber("425-911-9111");
-        Midi.setAddress("12345 BigBoi LN");
+        Midi.setAddress("12345 KingsCanyon LN");
         Midi.setEmail("BetterThanGosu@gmail.com");
         Midi.setNotes("Learn to code...");
         Midi.setBirthday("04/20/80");
+
+        Person Anthony = new Person();
+        Anthony.setName("PhoMachine");
+        Anthony.setPhoneNumber("911-911-9111");
+        Anthony.setAddress("23456 ARAM LN");
+        Anthony.setEmail("BIGPHOMAN@gmail.com");
+        Anthony.setNotes("Learn to code...");
+        Anthony.setBirthday("04/21/80");
+
+        Person Ashley = new Person();
+        Ashley.setName("Oheuna");
+        Ashley.setPhoneNumber("808-911-9111");
+        Ashley.setAddress("34567 SummonersRift LN");
+        Ashley.setEmail("BigSorkaHeals@gmail.com");
+        Ashley.setNotes("Learn to Draw...");
+        Ashley.setBirthday("05/03/80");
 
         //Creating objects
         BusinessContact obj = new BusinessContact("Microsoft", "/in/nanakul", "123-456-7890");
@@ -59,13 +75,11 @@ public class InheritanceMain {
 
         //Add Contacts to list
         contactList.add(Midi);
-        contactList.add(obj);
-        contactList.add(obj2);
-        contactList.add(obj3);
-        contactList.add(obj4);
+        contactList.add(Anthony);
+        contactList.add(Ashley);
 
         //Sort the ArrayList
-        //Collections.sort(contactList);
+        //Collections.sort(Person);
 
         //Print the ArrayList
         System.out.println(contactList);
@@ -78,12 +92,13 @@ public class InheritanceMain {
         System.out.println(contactList);
 
         //Search the ArrayList
-        boolean ans = contactList.contains(obj3);
+        boolean ans = contactList.contains(Ashley);
 
         if(ans) {
-            System.out.println("The list contains Family Information.");
+            System.out.println("Ashley is on the list. Here is their information.");
+            System.out.println(Ashley);
         } else {
-            System.out.println("The list does not contain Family Information.");
+            System.out.println("Ashley is not on this list.");
         }
     }
 }
